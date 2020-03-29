@@ -8,4 +8,4 @@ app.use(cors()) // Usa o cors, módulo de segurança
 app.use(express.json()) // Informa ao app que ira receber json como resposta
 app.use(routes) // Informa ao app para usar a variavel route (que terá as rotas)
 
-app.listen(3333) // Informa ao app a porta que tera que abrir as rotas
+app.listen(3333) //cd Informa ao app a porta que tera que abrir as rotas
